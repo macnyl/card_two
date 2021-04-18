@@ -7,6 +7,7 @@
 body{
     font-family: sans-serif;
     text-align: center;
+    background-color: var(--back-color);
 }
 
 :root{
@@ -18,10 +19,10 @@ body{
 }
 
 .backgroundCard{
-    background-color: var(--back-color);
+    /* background-color: var(--back-color); */
     height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -33,6 +34,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 55px;
+    margin-bottom: 55px;
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.15);
