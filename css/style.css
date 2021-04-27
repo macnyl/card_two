@@ -88,6 +88,10 @@ body{
     padding-top: 15px;
     font-size: 1.4em;
     color: grey;
+    /* text-transform: lowercase; */
+    /* font-style: italic; */
+    /* font-variant: normal; */
+    font-weight: bold;
 }
 
 .cardName{
@@ -99,6 +103,7 @@ body{
     padding-top: 25px;
     font-size: 1.1em;
     color: grey;
+    font-weight: bold;
 }
 
 .cardAbout{
